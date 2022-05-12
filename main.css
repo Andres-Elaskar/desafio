@@ -1,0 +1,201 @@
+/*Linkpara la fuente Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body { /*Unificacion de estilos etiquetas <body>*/
+    font-family: 'roboto', sans-serif;
+    height: 100vh;
+    background-color: rgb(235, 220, 220);
+    background-image: url("https://st2.depositphotos.com/7341970/10355/v/950/depositphotos_103551362-stock-illustration-vintage-kitchen-and-cooking-tools.jpg");
+    /*Estilos de grilla*/
+    display: grid;
+    grid-template-areas:
+    "body"
+    "header"
+    "navbar"
+    "texto-inicial"
+    "foto-inicial"
+    "grupo-contacto"
+    "myfooter"
+    }
+
+.flex-texto-inicial{
+    display: flex;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+    font-size: 45px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+h2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 45px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+h3 {
+    font-family: 'roboto', sans-serif;
+    font-size: 30px ;
+    color: black;
+}
+.navbar {
+    background-color: rgb(238, 147, 29);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav ul { /*Estilos menu de navegación*/
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {  /*Estilos al menu de navegación*/
+    margin-right: 3em;
+    list-style: none;
+    margin: 25px;
+}
+
+nav ul li a {  /*Estilos al menu de navegación*/
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {  /*Estilos al menu de navegación*/
+    color: rgb(92, 76, 54); 
+}
+
+.flex-texto-inicial{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-inicial{
+    flex-direction: row;
+    margin: 20px;
+}
+
+.descripcion{
+    font-family: 'roboto', sans-serif;
+    color:black;
+    font-size: 20px;
+    background-color: rgb(223, 236, 236);
+}
+
+.foto-1{
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+.texto-1{
+    padding-right: 20px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.grupo-contacto{
+    margin: 20px;
+}
+
+.myfooter{ /*Aca agregue estilos al footer*/
+    background-color: rgb(238, 147, 29);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.tituloRredes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+}
+
+/*flexbox*/
+.contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.contactos i { /*Estilos a los iconos*/
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    margin: 20px;   
+}
+
+/*MENU*/
+.menu {
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.big-pickles{
+    font-family: 'roboto', sans-serif;
+    color:black;
+    font-size: 20px;
+    background-color: rgb(223, 236, 236);
+}
+
+.big-cheese{
+    font-family: 'roboto', sans-serif;
+    color:black;
+    font-size: 20px;
+    background-color: rgb(223, 236, 236);
+}
+
+.big-onion{
+    font-family: 'roboto', sans-serif;
+    color:black;
+    font-size: 20px;
+    background-color: rgb(223, 236, 236);
+}
+/*====== Media Queries ======*/
+
+@media screen  and (min-widht:768px){
+    body { /*Unificacion de estilos etiquetas <body>*/
+        font-family: 'roboto', sans-serif;
+        height: 100vh;
+        background-color: rgb(235, 220, 220);
+        background-image: url("https://st2.depositphotos.com/7341970/10355/v/950/depositphotos_103551362-stock-illustration-vintage-kitchen-and-cooking-tools.jpg");
+    }
+
+    .menu {
+        /*flexbox*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+}.navbar {
+    background-color: rgb(238, 147, 29);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
